@@ -1,0 +1,32 @@
+{
+  "name": "trabajo-practico-integrador-3",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000t\u0000r\u0000a\u0000b\u0000a\u0000j\u0000o\u0000-\u0000p\u0000r\u0000a\u0000c\u0000t\u0000i\u0000c\u0000o\u0000-\u0000i\u0000n\u0000t\u0000e\u0000g\u0000r\u0000a\u0000d\u0000o\u0000r\u0000-\u00003\u0000\r\u0000 \u0000",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucianaMenotti/trabajo-practico-integrador-3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/LucianaMenotti/trabajo-practico-integrador-3/issues"
+  },
+  "homepage": "https://github.com/LucianaMenotti/trabajo-practico-integrador-3#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "express-validator": "^7.3.2",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.11.4"
+  }
+}
