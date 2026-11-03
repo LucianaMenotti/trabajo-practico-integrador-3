@@ -6,7 +6,7 @@ const userSchema = new Schema(
       type: String,
       required: true,
       minlength: 3,
-      maxlength: 30,
+      maxlength: 20,
       trim: true,
     },
     email: {
@@ -23,7 +23,7 @@ const userSchema = new Schema(
       minlength: 10,
       select: false, // select: false -> no devuelve la contraseña al hacer una consulta
     },
-    roles: {
+    role: {
       type: String,
       enum: ["user", "admin"],
       default: "user",
@@ -43,7 +43,7 @@ const userSchema = new Schema(
         minlength: 2,
         maxlength: 50,
       },
-      birthdate: {
+      birthDate: {
         type: Date,
       },
       phone: {
@@ -51,7 +51,7 @@ const userSchema = new Schema(
         trim: true,
       },
     },
-    deleted: {
+    deletedAt: {
       type: Date,
       default: null,
     },

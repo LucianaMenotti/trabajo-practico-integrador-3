@@ -1,3 +1,4 @@
+//es el que maneja los errores y no define reglas
 import { validationResult } from "express-validator";
 
 export const validate = (req, res, next) => {
